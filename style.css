@@ -1,0 +1,148 @@
+* {
+    transition: all .2s;
+}
+.clear{
+    clear:both;
+}
+.wrapper {
+      height: 900px;
+      width: 1200px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(2px);
+      opacity: 0.95;
+      border-radius : 20px;
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow:
+      1px 1px 1px rgba(255, 255, 255, 0.3),
+      -1px -1px 1px rgba(255, 255, 255, 0.3);
+}
+body {
+    background:url("https://ilyakhasanov.ru/images/background/75.png");
+}
+    .tab {
+    overflow: hidden;
+}
+.tab button {
+    background-color: transparent;
+    position: relative;
+    left: 1%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+.tab button:hover {
+    background-color: transparent;
+}
+.tab button.active {
+    background-color: transparent;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    color: white;
+}
+p.textzagolovok { font-family: Courier, monospace; 
+    height: 32px;
+    width: 130px;
+    position: relative;
+    left: 2%;
+    font-size: 30px;
+    color: white;
+}
+p.textall { font-family: Courier, monospace; 
+    font-size: 30px;
+    color: white;
+}
+* {box-sizing: border-box}
+body {font-family: Cent, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev {
+  cursor: pointer;
+  height: auto;
+  position: relative;
+  left: -40%;
+  padding: 30px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  cursor: pointer;
+  height: auto;
+  position: relative;
+  left: 40%;
+  padding: 30px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.Time{
+  color: white;
+  position: relative;
+  top: 1%;
+  left: -1%;
+}
